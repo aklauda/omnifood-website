@@ -1,6 +1,13 @@
 /* global $ */
 
 /* eslint-env jquery */
+const firebase = require("firebase/app");
+require("firebase/auth");
+require("firebase/firestore");
+var firebaseConfig = {
+  // ...
+};
+firebase.initializeApp(firebaseConfig);
 
 
 
